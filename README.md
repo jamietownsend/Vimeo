@@ -54,12 +54,15 @@ The class VideoResponse provides response code and json response, see Vimeo API 
 ```xml
 
 <dependency>
-  <groupId>com.clickntap</groupId>
-  <artifactId>vimeo</artifactId>
-  <version>1.13</version>
+  <groupId>ch.movinno.oss</groupId>
+  <artifactId>vimeo-client</artifactId>
+  <version>${vimeo-client.version}</version>
 </dependency>
 
 ```
 
-### Support or Contact
-Having trouble with Java Vimeo API 3.x? Contact info@clickntap.com and we’ll help you sort it out.
+### Forked from clickntap
+This project is a fork of [Vimeo from Click'nTap](https://github.com/clickntap/Vimeo) and is (in the current version)
+a backwards compatible drop in replacement. The main reason for the fork is to fix a shortcoming and make a release
+version, so dependent Maven projects can be released. Feel free to contribute code and perhaps make enhancement
+requests, however I can't guarentee that they'll be actively worked on.
