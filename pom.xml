@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.clickntap</groupId>
+	<groupId>ch.movinno.oss</groupId>
 	<artifactId>vimeo</artifactId>
 	<version>1.14-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -23,6 +23,12 @@
 
 	<developers>
 		<developer>
+			<name>Jamie Townsend</name>
+			<email>jamie_townsend@hotmail.com</email>
+			<organization>movinno GmbH</organization>
+			<organizationUrl>https://www.movinno.ch/</organizationUrl>
+		</developer>
+		<developer>
 			<name>Tonino Mendicino</name>
 			<email>tonino.mendicino@clickntap.com</email>
 			<organization>Click'nTap</organization>
@@ -34,19 +40,19 @@
 		<snapshotRepository>
 			<id>ossrh</id>
 			<name>Maven Central Snapshot Repository</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>ossrh</id>
 			<name>Maven Central Staging Repository</name>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:ssh://github.com/clickntap/Vimeo.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/clickntap/Vimeo.git</developerConnection>
-		<url>https://github.com/clickntap/Vimeo</url>
+		<connection>scm:git:ssh://github.com/movinno/Vimeo.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/movinno/Vimeo.git</developerConnection>
+		<url>https://github.com/movinno/Vimeo.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -219,7 +225,7 @@
 						<extensions>true</extensions>
 						<configuration>
 							<serverId>ossrh</serverId>
-							<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+							<nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
 							<autoReleaseAfterClose>true</autoReleaseAfterClose>
 						</configuration>
 					</plugin>
