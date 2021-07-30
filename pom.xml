@@ -3,7 +3,7 @@
 
 	<groupId>ch.movinno.oss</groupId>
 	<artifactId>vimeo-client</artifactId>
-	<version>1.14.1-SNAPSHOT</version>
+	<version>1.14-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Vimeo</name>
