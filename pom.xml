@@ -3,7 +3,7 @@
 
 	<groupId>ch.movinno.oss</groupId>
 	<artifactId>vimeo-client</artifactId>
-	<version>1.14.1-SNAPSHOT</version>
+	<version>1.14.1</version>
 	<packaging>jar</packaging>
 
 	<name>Vimeo</name>
@@ -53,7 +53,7 @@
 		<connection>scm:git:ssh://github.com/movinno/Vimeo.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/movinno/Vimeo.git</developerConnection>
 		<url>https://github.com/movinno/Vimeo.git</url>
-		<tag>HEAD</tag>
+		<tag>vimeo-client-1.14.1</tag>
 	</scm>
 
 	<properties>
